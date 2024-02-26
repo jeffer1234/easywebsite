@@ -1,0 +1,455 @@
+*{  /* aplica un caracteristica a todo el codigo html que no tenga una caracteristica asignada*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    /* par a*/
+    font-family:"Poppins", sans-serif;
+    font-weight: 1px;
+
+}
+
+body{
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    background:  rgba(255, 255, 255, 0.828) url('img/fondo1.jpeg');
+    background-size:contain;
+    
+}
+
+
+header{
+    border: rgba(255, 0, 0, 0) solid 5px;
+    top: 0;
+    box-sizing: border-box;
+    
+    display: flex;
+    background-color: rgb(114, 143, 139);
+    font-size: 25px;
+    max-width: 100%;    
+    height: 60px;   
+    padding: 0px 5px 0px 45px; 
+   /* background-size: cover; */
+   /* background-attachment: fixed;*/
+    position:  fixed;
+   
+    justify-content: space-between;
+    box-shadow: 0px 6px 8px #000000;
+    
+
+ } 
+ .header1{
+    display: flex;
+    justify-content: space-between;
+        
+ }
+
+/* .titulo1 h1{
+    display: inline;
+    font-size: 60px;
+    padding-top: 1px;
+    color: aquamarine;
+    } */
+.headimg1{
+        width:25%;
+}
+    
+.div-menu1 {
+        display: flex;
+           
+ }
+  
+nav{
+    padding: 0px 30px 0 0 ;
+    padding-top: 10px;
+
+ }
+ nav > a{
+    color: rgb(253, 253, 253);
+        font-weight: 400;
+    text-decoration: none;
+    font-family:"Poppins";
+    margin-left: 10px;
+    font-size:20px ;
+    transition: 0.3s;
+}
+nav > a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration:overline;
+    font-family:"Poppins";
+    font-weight: 650;
+    font-size: 25px;
+    
+}
+   
+
+/* -----------------titulos de Body---------------*/
+.contenedor{
+    padding: 10px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    /*border: solid 5px rgb(255, 136, 0);*/
+}
+.titulo {
+    padding-top: 0px;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family:"Poppins";
+
+
+}
+div h3{
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(88, 90, 88);
+    font-family:"Poppins", 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.contenedor h2{
+      border: solid 5px rgba(57, 105, 76, 0);
+      text-align: center;
+   
+}
+
+/* -----------------carrusel---------------*/
+.contenedor{
+    background-color: rgba(245, 245, 220, 0.8);
+    }
+
+
+#carrusel-conten{
+    border: 5px solid rgba(248, 0, 0, 0);
+    padding: 0;
+    font-size: 30px;
+    background-color: rgba(106, 106, 193, 0);
+    height: 600px;
+    overflow: hidden;
+    
+}
+
+/* --------------carrusel propiedades comunes---------------*/
+.item-carrusel{
+    border: 5px solid rgba(4, 255, 0, 0);
+    height: 100%;
+    position: relative;   
+    text-align: center;
+    padding-top: 80px;
+
+}
+.flecha-carrusel{
+    border: 5px solid rgba(0, 76, 255, 0);
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 10px 10px 10px;
+    font-weight: 800;
+    font-size:60px;
+    text-shadow: rgb(0, 0, 0) 5px 0px 10px, -5px 0px 10px rgb(0, 0, 0); 
+   
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0px 1px 10px;
+    }
+
+.point-div{
+    background-color: rgba(0, 0, 0, 0); /* corregir*/
+    height: 30px;
+    font-size:15px;
+}
+
+.imagen-contenedor-carr{
+    padding: 70px 0 30px 20px;
+    width:40%;
+    height: 100%;
+}
+.contenedor-texto-carr {
+    display: flex;
+     
+}
+.parte11-carr h3{
+    padding: 70px 10px 5px 5px ;
+    text-align: center;
+    color: rgb(58, 63, 76);
+    font-family:"Poppins";
+    font-size: 25px;
+    font-weight: 800;
+}
+.contenedor-texto-carr .parrafo1-carr{
+    padding: 5px 60px 10px 50px;
+    color: rgb(62, 166, 79)   ;
+    font-size: 20px;
+    font-weight: 650;
+    text-align: justify;
+}
+
+
+/* ----------------propiedades de cada item "1" de carrusel --------------*/
+
+
+
+
+.tarjeta-carrusel1{
+    border: 5px solid rgba(255, 0, 242, 0);
+    height: 85%;
+    background-color: rgba(245, 245, 220, 0.75);
+    margin: 0 60px 0 60px;
+    }
+
+/*#tarj-carr-1{
+ /*   background-color: rgba(245, 245, 220, 0.611);/*
+  /*  margin: 0 60px 0 60px; /*
+/*}/*
+
+/* ----------------sobre nosostros y por que----------------*/
+
+
+
+.espacio{
+    background-color: rgba(0, 0, 0, 0); /* corregir*/
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+}
+.imagen-contenedor{
+    border: solid 5px rgba(255, 0, 0, 0);
+    width:40%;
+}
+
+.contenedor-texto {
+    border: solid 5px rgba(21, 0, 255, 0);
+    display: flex;  
+    justify-content: space-evenly ; 
+    color: rgb(90, 145, 138);
+    font-size: 20px;
+    padding: 20px 50px 20px 50px;
+    margin-bottom: 50px;
+}
+
+.descripcion h3{
+    margin-bottom: 15px;
+    color: rgb(0, 77, 74);
+    font-weight: 800;
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    border: solid 5px rgba(0, 255, 174, 0);
+    
+}
+
+.descripcion h3 span{
+    background-color: rgb(0, 32,  30);
+    color: white;
+    border-radius: 70%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    margin-right: 20px;
+    margin-left: 20px ;
+    /*box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.543); */
+}
+
+.contenedor-texto .parrafo1 {
+    border: solid 5px rgba(255, 0, 0, 0);
+    padding: 5px 15px 30px 35px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    font-family:"Poppins";
+   
+}
+
+/*-----------------------portafolio---------------*/
+.portafolio{
+    border: rgba(255, 0, 0, 0) 5px solid;
+    padding: 0px 10px 10px 10px;
+    overflow: visible;
+}
+
+.titulo-porta h2{
+    border: rgba(247, 0, 255, 0) 3px solid;
+    padding: 0px 10px 0px 10px; ;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family:"Poppins";
+   
+}
+
+.portafolio p{
+    border: solid 5px rgba(21, 0, 255, 0);
+    display: flex;  
+    justify-content: space-evenly ; 
+    text-align: justify;
+    color: rgb(90, 145, 138);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 20px 2px 20px;
+   
+}
+
+
+ .galeria-port{    /*  contenedor de imagenes */
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: rgb(83, 128, 0) solid 5px;
+    height: 600px; */
+    display: flex;
+    width: 100%;
+    height: 480px;
+    overflow:hidden;
+    position: relative;  
+    border: rgba(0, 0, 0, 0) solid  8px ;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+
+.img-port img{
+    
+width: 310px;
+height: 370px;
+flex-grow: 1;
+object-fit:cover;
+opacity: .8;
+transition: .4s;
+ 
+}
+
+.img-port h4{
+    font-size: 40px;
+    text-shadow: 1px 1px 4px black;
+    color: #fff;
+    text-align: center;
+    padding-top: 10%;
+
+}
+.img-port p{
+    font-size: 25px;
+    text-shadow: 0px 0px 10px black;
+    padding: 28px ;
+    color: beige;
+}
+
+.hover-galeria{
+    border: solid rgba(0, 255, 242, 0) 5px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    background: hsla(201, 22%, 33%, 0.6);
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    transition: .4s;
+    transform: scale(0); 
+}
+
+.img-port:hover   .hover-galeria{
+    cursor: pointer;
+    width: 400px;
+    height: 500px;
+    transform: scale(1); 
+    
+}
+.img-port:hover  img{
+    cursor: pointer;
+    width: 400px;
+    height: 500px;
+    
+}
+
+
+    
+
+/*----------------------clientes---------------*/
+
+/* .tarjetas{
+    
+    justify-content: space-evenly;
+    overflow: scroll;
+    width: 100%;
+    height: 300px;
+    
+}
+.tarjetas .card{
+    background: rgb(52, 137, 58);
+    display: flex;
+    width: 100%;
+    height: 180px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.687);
+    margin: 1px 1px 5px 5px;
+}
+
+.tarjetas .card img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 1px 20px 2px 2px;
+    display: block;
+         
+}
+
+.tarjetas .card > .card-contenido{
+    width: 100%;
+    
+}
+.tarjetas .card > .card-contenido h4{
+    padding: 10px 1px 0 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.tarjetas .card > .card-contenido p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 5px 1px 1px 5px;
+    
+} */
+
+/*----------------------footer---------------*/
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+footer section{
+    float: right;
+    
+
+}
+
+footer p{
+    margin: 0;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: cornflowerblue;
+}
+
